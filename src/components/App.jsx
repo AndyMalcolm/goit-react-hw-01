@@ -1,38 +1,46 @@
-// src/App.jsx
+// // src/App.jsx
 
-const Product = () => {
-  return (
-    <div>
-      <h2>Cookies</h2>
-			<p>Price: 999 credits</p>
-    </div>
-  );
-};
+// const Product = () => {
+//   return (
+//     <div>
+//       <h2>Cookies</h2>
+// 			<p>Price: 999 credits</p>
+//     </div>
+//   );
+// };
 
-export default function App() {
-  return (
-    <div>
-      <h1>Products</h1>
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>Products</h1>
 
-      <Product />
-      <Product />
-      <Product />
-    </div>
-  );
-}
-// src/App.jsx
+//       <Product />
+//       <Product />
+//       <Product />
+//     </div>
+//   );
+// }
 
-import Product from './Product';
+// // src/components/App.jsx
 
-export default function App() {
-  return (
-    <div>
-      <h1>Best selling</h1>
+// import { Product } from "./Product";
 
-      <Product />
-      <Product />
-      <Product />
-    </div>
-  );
-}
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>Best selling</h1>
+
+//       <Product
+//         name="Tacos With Lime"
+//         imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
+//         price={10.99}
+//       />
+//       <Product
+//         name="Fries and Burger"
+//         imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?dpr=2&h=480&w=640"
+//         price={14.29}
+//       />
+//     </div>
+//   );
+// }
 
