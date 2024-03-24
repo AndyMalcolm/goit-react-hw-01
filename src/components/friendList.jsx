@@ -12,3 +12,4 @@ export default function FriendList({ friends }) {
     </ul>
   );
 }
+// тут разобраться и завтра сдавать
