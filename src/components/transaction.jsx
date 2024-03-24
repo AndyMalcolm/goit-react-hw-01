@@ -1,4 +1,4 @@
-import css from 'src/components/transactionStyle.css';
+import css from './transactionStyle.css';
 
 export default function transaction({ items }) {
   return (
