@@ -1,7 +1,7 @@
 import css from './friendListStyle.css';
-import friendListBlock from './friendListBlock';
+import FriendListBlock from './FriendListBlock';
 
-export default function friendListBlock({ friends }) {
+export default function FriendListBlock({ friends }) {
   return (
     <ul className={css.friendList}>
       {friends.map(({ avatar, name, isOnline, id }) => (
