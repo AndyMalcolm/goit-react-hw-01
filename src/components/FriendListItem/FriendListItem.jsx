@@ -1,7 +1,7 @@
-import css from './friendListBlock.css';
+import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 
-export default function friendListBlock({ avatar, name, isOnline }) {
+export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div>
       <img className={css.friendAvatar} src={avatar} alt={name} width="48" />

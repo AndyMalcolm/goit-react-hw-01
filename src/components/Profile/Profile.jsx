@@ -1,4 +1,4 @@
-import css from './profileStyle.css';
+import css from './ProfileStyle.css';
 
 const profileStyle = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
