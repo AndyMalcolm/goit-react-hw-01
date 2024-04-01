@@ -1,6 +1,6 @@
-import css from './ProfileStyle.css';
+import css from './Profile.module.css';
 
-const profileStyle = ({ name, tag, location, image, stats }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
@@ -35,4 +35,4 @@ const profileStyle = ({ name, tag, location, image, stats }) => {
   );
 };
 
-export default profileStyle;
+export default Profile;
