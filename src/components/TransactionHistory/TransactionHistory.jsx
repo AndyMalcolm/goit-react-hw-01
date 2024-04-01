@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import css from './TransactionHistory.module.css';
 
 export default function TransactionHistory({ items }) {

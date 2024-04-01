@@ -1,16 +1,15 @@
 .friendsList {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 12px;
-    margin-bottom: 40px;
-  }
-  
-  .friendsListItem {
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 12px;
-    text-align: center;
-  }
-  
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 40px;
+}
+
+.friendsListItem {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 12px;
+  text-align: center;
+}
