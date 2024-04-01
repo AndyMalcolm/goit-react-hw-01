@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 
